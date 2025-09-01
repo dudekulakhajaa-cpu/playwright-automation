@@ -47,14 +47,15 @@ export default defineConfig({
     {
       name: 'chromium', // Chrome browser
       use: { ...devices['Desktop Chrome'] },
-    },
-    {
-      name: 'firefox', // Firefox browser
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit', // Safari browser
-      use: { ...devices['Desktop Safari'] },
-    },
+    }
+    // ,
+    // {
+    //   name: 'firefox', // Firefox browser
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    // {
+    //   name: 'webkit', // Safari browser
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 });
